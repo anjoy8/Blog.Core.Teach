@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Teach.Swagger</name>
+    </assembly>
+    <members>
+        <member name="T:Teach.Swagger.Controllers.WeatherForecastController">
+            <summary>
+            天气管理
+            </summary>
+        </member>
+        <member name="M:Teach.Swagger.Controllers.WeatherForecastController.Get(Teach.Swagger.WeatherForecast,System.String)">
+            <summary>
+            天气预报
+            </summary>
+            <remarks>
+            <code>name ； 名字</code>
+            </remarks>
+            <returns>返回五天天气数组</returns>
+            <param name="weatherForecast">天气实例</param>
+            <param name="name">名字</param>
+        </member>
+        <member name="T:Teach.Swagger.WeatherForecast">
+            <summary>
+            天气实体
+            </summary>
+        </member>
+        <member name="P:Teach.Swagger.WeatherForecast.Date">
+            <summary>
+            日期
+            </summary>
+        </member>
+        <member name="P:Teach.Swagger.WeatherForecast.TemperatureC">
+            <summary>
+            温度
+            </summary>
+        </member>
+    </members>
+</doc>
